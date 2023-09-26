@@ -1,4 +1,4 @@
-const { URL } = require("url");
+import { URL } from "url";
 
 export const getIcons = function (icon) {
   const BASE_PATH = "https://linaria.dev/dist/";
