@@ -1,0 +1,32 @@
+{
+  "name": "linaria-babel-plugin-resolver-bug-report",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "preview": "pnpm build && pnpm dlx http-server ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@linaria/core": "^5.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.22.15",
+    "@linaria/babel-preset": "^5.0.2",
+    "@linaria/shaker": "^5.0.1",
+    "@linaria/webpack-loader": "^5.0.2",
+    "@linaria/webpack5-loader": "^5.0.2",
+    "babel-loader": "^9.1.3",
+    "css-hot-loader": "^1.4.4",
+    "css-loader": "^6.8.1",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^2.7.6",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
